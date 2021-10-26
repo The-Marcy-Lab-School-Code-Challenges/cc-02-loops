@@ -1,20 +1,25 @@
 //1
-function sumOfFourAndSix(){
+function countToTwenty(){
   
 }
 
 //2
-function oddAndEvenInFifteen(){
+function countFromTwenty(){
   
 }
 
 //3
-function assignGrade(){
+function countToN(){
   
 }
 
 
+//4
+function countFromN(){
+  
+}
 
-
-
-
+//5
+function countEveryOdd(){
+  
+}
