@@ -10,33 +10,27 @@
 
 ## Code Problems
 
-1. Write a function named `sumOfFourAndSix` that returns the sum of all the multiples of 4 **and** 6 from 1 to 1000, including 1 and 1000.
+1. Write a function named `countToTwenty`, that console.logs all integers from 1 to 20, inclusive. 
 ```
-sumOfFourAndSix() //returns 41832
-```
-
-2. Write a function named `oddAndEvenInFifteen` that will console.log if a number is odd or even between 0 and 15. 
-```
-oddAndEvenInFifteen()
-// first five console.logs:
-// "0 is even"
-// "1 is odd"
-// "2 is even"
-// "3 is odd"
-// "4 is even"
-// "5 is odd"
+countToTwenty() //console.logs 1, 2, 3, 4...18, 19, 20
 ```
 
-3. Write a function named `assignGrade` that:
-    - takes one integer argument, a score from 0 to 100.
-    - returns a grade for the score, either "A", "B", "C", "D", or "F".
-    - if the score is from 91-100, the function should return "A"
-    - if the score is from 81-90, the function should return "B"
-    - if the score is from 71-80, the function should return "C"
-    - if the score is from 65-70, the function should return "D"
-    - if the score is less than 65, the function should return "F"
+2. Write a function named `countFromTwenty`, that console.logs all integers from 20 to 1, inclusive. 
 ```
-assignGrade(91) // returns "A"
-assignGrade(65)  // returns "D"
-assignGrade(80)  // returns "c"
+countFromTwenty() //console.logs 20, 19, 18...4, 3, 2, 1
+```
+
+3. Write a function named `countToN`, that takes in an integer argument, and console.logs all integers from 1 up to the given integer, inclusive.
+```
+countToN(10) // console.logs 1 2 3 4 5 6 7 8 9 10
+```
+
+4. Write a function named `countFromN`, that takes in an integer argument, and console.logs all integers from the given integer to 1, inclusive.
+```
+countFromN(10) //console.logs 10 9 8 7 6 5 4 3 2 1 
+```
+
+5. Write a function named `countEveryOdd`, that takes in an integer argument, and console.logs all the odd integers from 1 up to the given integer, inclusive.
+```
+countEveryOdd(10) // console.logs 1 3 5 7 9 
 ```
